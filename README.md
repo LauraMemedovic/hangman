@@ -1,53 +1,21 @@
-Projektne faze
- - Opis projekta
- - Početna struktura aplikacije
- - Prototip
- - Konzultacije
- - Finalna verzija
- - Obrana projekta
- 
- 
-Opis projekta
+Project Description
 
-Kratki opis
+The application represents a game of guessing a hidden word. The player has a certain number of attempts to guess the hidden word, depending on the chosen difficulty level (easy/medium/hard). At the beginning, the player selects the category of words to be guessed - movies or TV series. They input letters and by clicking the button, they check if that letter is in the hidden word. If it is, the letter replaces the dash in the hidden word. If not, the player loses a life and continues trying by inputting more letters. The game ends when the player guesses the word correctly or loses all lives.
 
-Aplikacija predstavlja igru pogađanja skrivene riječi. Igrač ima onoliko pokušaja da pogodi skrivenu riječ ovisno o težini igre koju je odabrao (lagano/srednje/teško). Na početku se odabire i kategorija pojmova koji se trebaju pogađati - filmovi ili serije. Upisuje slova i klikom na botun provjerava se je li to slovo u skrivenoj riječi. Ako je, umjesto crtice u skrivenoj riječi pojavljuje se to slovo. Ako nije, igrač gubi život i nastavlja dalje pokušavati upisujući slova. Igra završava ako igrač pogodi riječ ili ako izgubi sve živote.
+List of functionalities
 
-Popis funkcionalnosti
+a FIRST SCREEN - HomeScreen - the initial screen displaying the rules and where the player chooses the difficulty level (easy/medium/hard) and the category of words (movies/TV series).
 
-a PRVI EKRAN - HomeScreen - početni ekran na kojem su napisana pravila i na kojem se odabire težina igre (lagano/srednje/teško) i kategorija pojmova (filmovi/serije).
+b SECOND SCREEN - GameScreen - the screen where the game is played.
 
-b DRUGI EKRAN - GameScreen - ekran na kojem se igra
+c THIRD SCREEN - EndScreen - the screen displayed at the end of the game, indicating whether the player has won or lost.
 
-c TREĆI EKRAN - EndScreen - ekran za kraj igre koji prikazuje je li igrač pobjedio ili izgubio
+INSTRUCTIONS
 
+Project Description
 
-UPUTE
+At the beginning of the game, the player selects the difficulty level - easy means they have 10 attempts to guess the hidden word, medium gives 7 attempts, and hard gives 5 attempts. They also choose the category (movies/TV series). The player inputs letters and, by clicking the button, checks if that letter is in the hidden word. If it is, the letter appears in the correct position(s) in the hidden word. If not, the player loses a life and continues trying by inputting more letters. The game ends when the player guesses the word correctly or loses all lives.
 
-Opis projekta
+Initial App Structure
 
-Igrač na početku igre odabire težinu - lagano znači da ima 10 pokušaja za pogoditi skrivenu riječ, srednje da ima 7 pokušaja, a teško da ima 5 pokušaja te kategoriju (filmovi/serije). Upisuje slova i klikom na botun provjerava se je li to slovo u skrivenoj riječi. Ako je, umjesto crtice u skrivenoj riječi pojavljuje se to slovo. Ako nije, igrač gubi život i nastavlja dalje pokušavati upisujući slova. Igra završava ako igrač pogodi riječ ili ako izgubi sve živote.
-
-
-Početna struktura aplikacije
-
-Aplikacija sadrži tri ekrana - HomeScreen, GameScreen i EndScreen. Prvi ekran je HomeScreen na kojem su napisana pravila igre, odabir težine igre i kategorije pojmova. Drugi ekran GameScreen služi za igranje igre. Na kraju igre prikazuje se dodatni ekran na kojem je prikazana poruka je li igrač pobijedio ili izgubio. 
-
-
-Prototip
-
-U ovoj fazi bi trebali imati "grubu" verziju svoje aplikacije. Ova verzija bi trebala imati implementirane osnovne funkcionalnosti koje su navedene u opisu projekta. Ne očekuje se da su implementirane SVE funkcionalnosti niti da su postojeće funkcionalnosti potpuno ispravne.
-
-
-Konzultacije
-
-Nakon izrade prototipa potrebno se javiti nastavniku za termin konzultacija. Na konzultacijama ćete ukratko pokazati svoj prototip te će se po potrebi napraviti modifikacija početnih zahtjeva. Dovršeni projekti bez ove faze neće biti prihvaćeni.
-
-
-Finalna verzija
-
-Nakon demonstracije prototipa možete nastaviti sa razvojem aplikacije i implementacijom svih funkcionalnosti. Prilikom razvoja potrebno je voditi dnevnik aktivnosti prema zadanim uputama.
-
-
-Obrana projekta
-Zadnja faza je obrana projekta - nakon završetka finalne verzije svoje aplikacije javite se nastavniku za dogovor oko termina obrane projekta.
+The application consists of three screens - HomeScreen, GameScreen, and EndScreen. The first screen, HomeScreen, displays the game rules, the selection of the game difficulty, and the category of words. The second screen, GameScreen, is used for playing the game. At the end of the game, an additional screen, EndScreen, is shown, displaying a message indicating whether the player has won or lost.
